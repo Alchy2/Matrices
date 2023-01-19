@@ -74,7 +74,7 @@ if (isset($_GET["operation"])) {
         for($i = 0; $i < count(explode(",",explode(";", $_GET["num1"])[0])); $i++) {
             for ($j = 0; $j < $length; $j++)
             {
-                $temp_arr[$i][$j] = $result[$j][$i];
+                $temp_arr[$i][$j] = floatval($result[$j][$i]);
             }
           }
           $result = $temp_arr;
