@@ -19,3 +19,4 @@ Program serves for calculation of matrices, currently supported operations are:
 matrices are written by dividing every element of matrix with , and every row by ;
 example: 2,5,6;1,3,2;9,0,1
 
+![Diagram bez názvu drawio](https://user-images.githubusercontent.com/76948309/213501381-9d5115be-0e34-4211-8f98-c95f91109872.png)
